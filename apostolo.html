@@ -14,7 +14,7 @@ var cartasdosoutros = [[], [], []];
 
 function mostrarDevedor(){
 	var cartaSelecionada = document.getElementById("cartaSelecionada").value;
-	if (minhascartas[0][0] =! null){
+	if (minhascartas[0][0] != null){
 	for (i = 0;i < minhascartas.length; i++){
 		if (cartaSelecionada == minhascartas[i][0])
 			alert("Esta carta está com o " + minhascartas[i][1]);	
@@ -36,7 +36,7 @@ function mostrarDividas(){
 
 function mostrarResumo(){
 	document.getElementById("listacartasemprestadas").value = "As cartas que eu emprestei  são:" + "\n\n";
-	if (minhascartas[0][0] =! null){
+	if (minhascartas[0][0] != null){
 	for (i=0;i<minhascartas.length;i++){
 		document.getElementById("listacartasemprestadas").value += minhascartas[i][0] + " -> " + minhascartas[i][1] + "\n";
 	}
@@ -76,7 +76,7 @@ Carta:
 <select id="cartaSelecionada">
 <option> ------- </option>
 <script>
-if (minhascartas[0][0] =! null){
+if (minhascartas[0][0] != null){
 	for (i = 0;i < minhascartas.length; i++){
 		document.write("<option>");
 		document.write(minhascartas[i][0]);
