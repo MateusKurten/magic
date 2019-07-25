@@ -125,7 +125,7 @@ div.botaoretorna{
 @media (max-width: 900px) and (orientation: portrait) {
 
 	html {
-		background-image: url("images/bolas_wallpaper.jpg");
+		background-image: url("https://mfiles.alphacoders.com/498/498716.jpg");
 	}
 
 	header.home{
@@ -136,6 +136,10 @@ div.botaoretorna{
 		margin: auto;
 	}
 
+	h1 {
+		font-size: 20px;
+	}
+
 	.container{
 		width: 70%;
 		height: 1300px;
@@ -144,43 +148,43 @@ div.botaoretorna{
 	}
 
 	img.roalesk {
-		height: 250px;
+		height: 200px;
 		width: auto;
 		border: solid 3px;
 		position: absolute;
 		top: 20px;
 		left: 50%;
-		margin-left: -170px;
+		margin-left: -137px;
 	}
 	
 	img.gishath {
-		height: 250px;
+		height: 200px;
 		width: auto;
 		border: solid 3px;
 		position: absolute;
-		top: 320px;
+		top: 270px;
 		left: 50%;
-		margin-left: -171px;
+		margin-left: -137px;
 	}
 	
 	img.elenda {
-		height: 250px;
+		height: 200px;
 		width: auto;
 		border: solid 3px;
 		position: absolute;
-		top: 620px;
+		top: 520px;
 		left: 50%;
-		margin-left: -171px;
+		margin-left: -137px;
 	}
 	
 	img.feather {
-		height: 250px;
+		height: 200px;
 		width: auto;
 		border: solid 3px;
 		position: absolute;
-		top: 920px;
+		top: 770px;
 		left: 50%;
-		margin-left: -171px;
+		margin-left: -137px;
 		}
 
 }
