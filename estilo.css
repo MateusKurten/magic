@@ -122,7 +122,7 @@ div.botaoretorna{
 	justify-content: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) and (orientation: portrait) {
 
 	html {
 		background-image: url("images/bolas_wallpaper.jpg");
